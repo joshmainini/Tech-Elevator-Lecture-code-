@@ -15,12 +15,12 @@ namespace OldMacDonald.Farming
             return "Cluck";
         }
 
-        //public override string MakeSoundTwice()
-        //{
-        //    return "Cluck Cluck";
-        //}
+		public override string MakeSoundTwice()
+		{
+			return "Cluck Cluck";
+		}
 
-        public void LayEgg()
+		public void LayEgg()
         {
             Console.WriteLine("Bakaw");
         }
