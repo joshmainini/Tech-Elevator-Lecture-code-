@@ -15,10 +15,18 @@ namespace OldMacDonald.Farming
             return "Cluck";
         }
 
+<<<<<<< HEAD
 		public override string MakeSoundTwice()
 		{
 			return "Cluck Cluck";
 		}
+=======
+        public override string MakeSoundTwice()
+        {
+            return "Cluck Cluck";
+
+        }
+>>>>>>> f724b8d02cfe31d508dfb52fef1bf2b5b7eb5433
 
 		public void LayEgg()
         {
