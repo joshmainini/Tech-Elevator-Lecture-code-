@@ -22,7 +22,8 @@ namespace ViewsPart2.Web.Controllers
         {
             // Controllers normally get the model from a database or another part of the code base.
             
-            // A model is a class that we want to display in a view.            
+            // A model is a class that we want to display in a view.    
+			
             Person person = new Person
             {
                 FirstName = "Luke",
