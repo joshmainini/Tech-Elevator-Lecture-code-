@@ -132,7 +132,6 @@ namespace FlyByNightBank.Web.Controllers
         // POST: LoanApplication/Review
         [HttpPost]
         public ActionResult Submit()
-
         {
             LoanApplication loanApplication = Session["Loan_Application"] as LoanApplication;
             applicationDal.SubmitApplication(loanApplication);
