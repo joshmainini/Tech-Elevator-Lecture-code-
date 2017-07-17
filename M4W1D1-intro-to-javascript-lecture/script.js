@@ -52,7 +52,7 @@ window.onload = function () {
     }
 
     // Now go back and switch numberOfQuarterBacks to "nineteen" and see what happens when we use ++
-    // We'll get NaN
+    // We'll get NaNNaN
 
 
     /*
