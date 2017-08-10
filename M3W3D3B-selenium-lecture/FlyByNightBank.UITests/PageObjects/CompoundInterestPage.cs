@@ -23,7 +23,7 @@ namespace FlyByNightBank.UITests.PageObjects
         }
 
 
-        [FindsBy(How = How.Name Using = "Principal")]
+        [FindsBy(How = How.Name, Using = "Principal")]
         public IWebElement Principal { get; set; }
 
         [FindsBy(How = How.Name, Using = "InterestRate")]
